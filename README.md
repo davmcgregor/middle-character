@@ -19,11 +19,12 @@ Word.get_middle("test")  #=> "es"
 ```ruby
 Word.get_middle("testing")  #=> "t"
 ```
+## Acceptance Criteria
 
-## Scenarios
-
-| Inputs    | Outputs |
-| ------    | ------- |
-| "test"    | "es"    |
-| "testing" | "t"     |
-| "middle"  | "dd"    |
+| Input     | Output |
+| --------- | ------ |
+| "test"    | "es"   |
+| "testing" | "t"    |
+| "middle"  | "dd"   |
+| "A"       | "A"    |
+| "of"      | "of"   |
